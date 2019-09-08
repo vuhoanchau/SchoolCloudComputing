@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BBstore - Blog</title>
+	<link rel="icon" href="img/Fevicon2.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
+                  <li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
+                  <li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
+                  <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
+                  <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
+                </ul>
+							</li>
+              <li class="nav-item active submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Blog</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item active"><a class="nav-link" href="blog.html">Blog Single</a></li>
+                  <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                </ul>
+							</li>
+							<li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Members</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                  <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                  <li class="nav-item"><a class="nav-link" href="tracking-order.html">Tracking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+
+            <ul class="nav-shop">
+              <li class="nav-item"><button><i class="ti-search"></i></button></li>
+              <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
+              <li class="nav-item"><a class="button button-header" href="#">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!--================ End Header Menu Area =================-->
+
+
+  <!-- ================ start banner area ================= -->	
+  <section class="blog-banner-area" id="blog">
+    <div class="container h-100">
+      <div class="blog-banner">
+        <div class="text-center">
+          <h1>Our Blog</h1>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Blog</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================ end banner area ================= -->
+
+
+  <!--================Blog Categorie Area =================-->
+  <section class="blog_categorie_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="categories_post">
+                <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-3.jpg" alt="post">
+                <div class="categories_details">
+                    <div class="categories_text">
+                        <a href="single-blog.html">
+                            <h5>Social Life</h5>
+                        </a>
+                        <div class="border_line"></div>
+                        <p>Enjoy your social life together</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="categories_post">
+            <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-2.jpg" alt="post">
+            <div class="categories_details">
+              <div class="categories_text">
+                <a href="single-blog.html">
+                    <h5>Politics</h5>
+                </a>
+                <div class="border_line"></div>
+                <p>Be a part of politics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="categories_post">
+                <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-1.jpg" alt="post">
+                <div class="categories_details">
+                    <div class="categories_text">
+                        <a href="single-blog.html">
+                            <h5>Food</h5>
+                        </a>
+                        <div class="border_line"></div>
+                        <p>Let the food be finished</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================Blog Categorie Area =================-->
+
+  <!--================Blog Area =================-->
+  <section class="blog_area">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="blog_left_sidebar">
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a class="active" href="#">Industries,</a>
+                                      <a href="#">Bussiness,</a>
+                                      <a href="#">Investment</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#">Vuch
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">21 Mar, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">1.2M Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">06 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-11.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html">
+                                          <h2>LNG power plants take centre stage in Vietnam, foreign investors keen</h2>
+                                      </a>
+                                      <p>The first quarter saw a flurry of interest among foreign investors in LNG-fired power projects in Vietnam.
+										Thailand Gulf Energy Development Public Company Limited (Gulf), at a meeting in early March with Ninh Thuan authorities,
+										expressed interest in building a $7.8-billion liquefied natural gas (LNG)-fired power complex in Ca Na,
+										a coastal commune in the central province of Ninh Thuan.</p>
+                                      <a class="button button-blog" href="single-blog.html">View More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">Jobs,</a>
+                                      <a class="active" href="#">Place,</a>
+                                      <a href="#">Travel,</a>
+                                      <a href="#">Lifestyle</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#">Vu Hoan Chau
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">18 Dec, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">600K Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">09 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-22.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html">
+                                          <h2>Vietnam among world best beach havens for retirees</h2>
+                                      </a>
+                                      <p>Vietnam ranks seventh among 10 best beach destinations in the world for retirees this year, according to a report compiled by International Living, 
+									  an Ireland-based publishing company that writes about retiring overseas; and Panama-based travel magazine Live and Invest Overseas.</p>
+                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">Lifestyle,</a>
+                                      <a href="#">Viet Nam,</a>
+                                      <a href="#">Sai Gon,</a>
+                                      <a class="active" href="#">Cultural</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#">Vuchtcs19009
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">14 Feb, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">2.8M Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">300 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-33.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html">
+                                          <h2>Saigon exhibition recalls Vietnam War stories</h2>
+                                      </a>
+                                      <p>The event, co-organized by the museum and management board of Hoa Lo Prison Historical Relic in Hanoi, opened Thursday at War Remnants Museum in Ho Chi Minh City.</p>
+                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">LifeStyle,</a>
+                                      <a class="active" href="#">Foreign Cultural</a>
+                                   
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#"> Chau Vu
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">14 Feb, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">700K Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">12 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-44.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html">
+                                          <h2>US weblog fetes House of Light and Wind in northern Vietnam</h2>
+                                      </a>
+                                      <p>Since three sides of the house would be subjected to thermal effects, ArchDaily has dubbed it the "House of Light and Wind" for perfectly answering the needs of heat insulation,
+									  natural ventilation and energy savings.</p>
+                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">Places,</a>
+                                      <a href="#">Ha Noi,</a>
+                                      <a class="active" href="#">Weather,</a>
+                                      <a href="#">Lifestyle</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="#">Vuch 
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">15 Mar, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">200K Views
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">12 Comments
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/main-blog/m-blog-55.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a href="single-blog.html">
+                                          <h2>Thick fog gives Hanoi attractions a mysterious look</h2>
+                                      </a>
+                                      <p>For some people, the sight of foggy tourist attractions in the capital city has evoked images of Da Lat, the Central Highlands resort town known for its misty beauty.</p>
+                                      <a href="single-blog.html" class="button button-blog">View More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <nav class="blog-pagination justify-content-center d-flex">
+                          <ul class="pagination">
+                              <li class="page-item">
+                                  <a href="#" class="page-link" aria-label="Previous">
+                                      <span aria-hidden="true">
+                                          <span class="lnr lnr-chevron-left"></span>
+                                      </span>
+                                  </a>
+                              </li>
+                              <li class="page-item active">
+                                  <a href="#" class="page-link">01</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="#" class="page-link">02</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="#" class="page-link">03</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="#" class="page-link">04</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="#" class="page-link">09</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="#" class="page-link" aria-label="Next">
+                                      <span aria-hidden="true">
+                                          <span class="lnr lnr-chevron-right"></span>
+                                      </span>
+                                  </a>
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="blog_right_sidebar">
+                      <aside class="single_sidebar_widget search_widget">
+                          <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Search Posts">
+                              <span class="input-group-btn">
+                                  <button class="btn btn-default" type="button">
+                                      <i class="lnr lnr-magnifier"></i>
+                                  </button>
+                              </span>
+                          </div>
+                          <!-- /input-group -->
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget author_widget">
+                          <img class="author_img rounded-circle" src="img/blog/author1.png" alt="">
+                          <h4>Vu Hoan Chau</h4>
+                          <p>Expert Blog Writer</p>
+                          <div class="social_icon">
+                              <a href="#">
+                                  <i class="fab fa-facebook-f"></i>
+                              </a>
+                              <a href="#">
+                                  <i class="fab fa-twitter"></i>
+                              </a>
+                              <a href="#">
+                                  <i class="fab fa-github"></i>
+                              </a>
+                              <a href="#">
+                                <i class="fab fa-behance"></i>
+                              </a>
+                          </div>
+                          <p>An unique artist in Communication. Just kidding . I'm just a normal people , have a normal life. Try to do the real and simple thing for people around.
+                          </p>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget popular_post_widget">
+                          <h3 class="widget_title">Popular Posts</h3>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post11.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Lack of direct flights hits Vietnam outbound tourism</h3>
+                                  </a>
+                                  <p>01 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post22.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Jacaranda, a South American beauty that adds to Da Lat’s charm</h3>
+                                  </a>
+                                  <p>02 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post33.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Da Nang shortens renowned international fireworks festival</h3>
+                                  </a>
+                                  <p>03 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular-post/post44.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Hoi An gets traditional medicine museum</h3>
+                                  </a>
+                                  <p>04 Hours ago</p>
+                              </div>
+                          </div>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget ads_widget">
+                          <a href="#">
+                              <img class="img-fluid" src="img/blog/add.jpg" alt="">
+                          </a>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget post_category_widget">
+                          <h4 class="widget_title">Post Catgories</h4>
+                          <ul class="list cat-list">
+                              <li>
+                                  <a href="#" class="d-flex justify-content-between">
+                                      <p>Technology</p>
+                                      <p>37</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" class="d-flex justify-content-between">
+                                      <p>Lifestyle</p>
+                                      <p>24</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" class="d-flex justify-content-between">
+                                      <p>Fashion</p>
+                                      <p>59</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" class="d-flex justify-content-between">
+                                      <p>Art</p>
+                                      <p>29</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" class="d-flex justify-content-between">
+                                      <p>Food</p>
+                                      <p>15</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" class="d-flex justify-content-between">
+                                      <p>Architecture</p>
+                                      <p>09</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" class="d-flex justify-content-between">
+                                      <p>Adventure</p>
+                                      <p>44</p>
+                                  </a>
+                              </li>
+                          </ul>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single-sidebar-widget newsletter_widget">
+                          <h4 class="widget_title">Newsletter</h4>
+                          <p>
+                              Here, I focus on a range of items and features that we use in life without giving them a second thought.
+                          </p>
+                          <div class="form-group d-flex flex-row">
+                              <div class="input-group">
+                                  <div class="input-group-prepend">
+                                      <div class="input-group-text">
+                                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                                      </div>
+                                  </div>
+                                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email address" onfocus="this.placeholder = ''"
+                                      onblur="this.placeholder = 'Enter email'">
+                              </div>
+                              <a href="#" class="bbtns">Subcribe</a>
+                          </div>
+                          <p class="text-bottom">You can unsubscribe at any time</p>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single-sidebar-widget tag_cloud_widget">
+                          <h4 class="widget_title">Tag Clouds</h4>
+                          <ul class="list">
+                              <li>
+                                  <a href="#">Technology</a>
+                              </li>
+                              <li>
+                                  <a href="#">Fashion</a>
+                              </li>
+                              <li>
+                                  <a href="#">Architecture</a>
+                              </li>
+                              <li>
+                                  <a href="#">Fashion</a>
+                              </li>
+                              <li>
+                                  <a href="#">Food</a>
+                              </li>
+                              <li>
+                                  <a href="#">Technology</a>
+                              </li>
+                              <li>
+                                  <a href="#">Lifestyle</a>
+                              </li>
+                              <li>
+                                  <a href="#">Art</a>
+                              </li>
+                              <li>
+                                  <a href="#">Adventure</a>
+                              </li>
+                              <li>
+                                  <a href="#">Food</a>
+                              </li>
+                              <li>
+                                  <a href="#">Lifestyle</a>
+                              </li>
+                              <li>
+                                  <a href="#">Adventure</a>
+                              </li>
+                          </ul>
+                      </aside>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--================Blog Area =================-->
+
+  <!--================Instagram Area =================-->
+  <section class="instagram_area">
+    <div class="container box_1620">
+      <div class="insta_btn">
+        <a class="btn theme_btn" href="#">Follow us on instagram</a>
+      </div>
+      <div class="instagram_image row m0">
+        <a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a>
+        <a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a>
+      </div>
+    </div>
+  </section>
+  <!--================End Instagram Area =================-->
+  
+
+  <!--================ Start footer Area  =================-->	
+	<footer class="footer">
+		<div class="footer-area">
+			<div class="container">
+				<div class="row section_gap">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title large_title">Our Mission</h4>
+							<p>
+								So seed seed green that winged cattle in. Gathering thing made fly you're no 
+								divided deep moved us lan Gathering thing us land years living.
+							</p>
+							<p>
+								So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved 
+							</p>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Quick Links</h4>
+							<ul class="list">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="category.html">Shop</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="category.html">Product</a></li>
+								<li><a href="category.html">Brand</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Contact Us</h4>
+							<div class="ml-40">
+								<p class="sm-head">
+									<span class="fa fa-location-arrow"></span>
+									Head Office
+								</p>
+								<p>1231  Huynh Tan Phat Street, District 7 , Ho Chi Minh City</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-phone"></span>
+									Phone Number
+								</p>
+								<p>
+									070 321 5222<br>
+									070 123 2555
+								</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-envelope"></span>
+									Email
+								</p>
+								<p>
+									vuhoanchau@gmail.com <br>
+									www.hangchuyensi.com 
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</footer>
+	<!--================ End footer Area  =================-->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
